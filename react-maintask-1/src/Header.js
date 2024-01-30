@@ -6,16 +6,16 @@ const Header = () => {
   return (
     <header>
       <div className="logo">
-        <Link to="/"><img src={logo} alt="Logo" /></Link>
+        <Link to="#a"><img src={logo} alt="Logo" /></Link>
       </div>
       <nav>
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/foods">Order Variety Foods</Link></li>
-          <li><Link to="/contact">Contact Us</Link></li>
-          <li><Link to="/login">Login</Link></li>
-          <li><Link to="/signup">Sign Up</Link></li>
+          <li><Link to="#a">Home</Link></li>
+          <li><Link to="#a">About</Link></li>
+          <li><Link to="#a">Order Variety Foods</Link></li>
+          <li><Link to="#a">Contact Us</Link></li>
+          <li><Link to="#a">Login</Link></li>
+          <li><Link to="#a">Sign Up</Link></li>
         </ul>
       </nav>
     </header>
